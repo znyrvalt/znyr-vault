@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>znyr.vault</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .hidden { display: none; }
+        input[type="password"] {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #66ccff;
+            color: black;
+            cursor: pointer;
+        }
+        .file-list a {
+            display: block;
+            margin-top: 10px;
+            color: #66ccff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔐 znyr.vault</h1>
+    <div id="login">
+        <p>Enter password to access files:</p>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="checkPassword()">Unlock</button>
+        <p id="error" style="color: red;"></p>
+    </div>
+    <div id="content" class="hidden">
+        <h2>📁 Downloadable Files</h2>
+        <div class="file-list">
+            <a href="files/sample1.txt" download>Download sample1.txt</a>
+            <a href="files/sample2.txt" download>Download sample2.txt</a>
+        </div>
+    </div>
+    <script>
+        function checkPassword() {
+            const correctPassword = "01302003123";
+            const input = document.getElementById("password").value;
+            if (input === correctPassword) {
+                document.getElementById("login").style.display = "none";
+                document.getElementById("content").classList.remove("hidden");
+            } else {
+                document.getElementById("error").textContent = "Incorrect password.";
+            }
+        }
+    </script>
+</body>
+</html>
