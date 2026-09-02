@@ -1,0 +1,73 @@
+{
+  "custom.nuke_incoming": {
+    "sounds": [
+      {
+        "name": "custom/nuke_incoming",
+        "stream": false
+      }
+    ]
+  },
+  "custom.nuke_explosion": {
+    "sounds": [
+      {
+        "name": "custom/nuke_explosion",
+        "stream": false
+      }
+    ]
+  },
+  "hv_dig.rotation_metal": {
+    "sounds": [
+      "hv_dig/rotation_metal"
+    ]
+  },
+  "hv_dig.leg_attack": {
+    "sounds": [
+      "hv_dig/leg_attack"
+    ]
+  },
+  "hv_dig.step": {
+    "sounds": [
+      "hv_dig/step"
+    ]
+  },
+  "hv_dig.hurt": {
+    "sounds": [
+      "hv_dig/hurt"
+    ]
+  },
+  "hv_dig.bomb_shoot": {
+    "sounds": [
+      "hv_dig/bomb_shoot"
+    ]
+  },
+  "hv_dig.ground_crackle": {
+    "sounds": [
+      "hv_dig/ground_crackle"
+    ]
+  },
+  "hv_dig.whoosh": {
+    "sounds": [
+      "hv_dig/whoosh"
+    ]
+  },
+  "hv_dig.connect": {
+    "sounds": [
+      "hv_dig/connect"
+    ]
+  },
+  "hv_dig.dust": {
+    "sounds": [
+      "hv_dig/dust"
+    ]
+  },
+  "hv_dig.explosion": {
+    "sounds": [
+      "hv_dig/explosion"
+    ]
+  },
+  "hv_dig.rotation_crackle": {
+    "sounds": [
+      "hv_dig/rotation_crackle"
+    ]
+  }
+}

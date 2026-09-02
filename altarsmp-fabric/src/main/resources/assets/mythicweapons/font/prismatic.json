@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:gui/prismatic_screen.png",
+      "ascent": 250,
+      "height": 420,
+      "chars": [
+        "\ue900"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "textures": {
+    "blackhole_0": "mythicweapons:weapons/blackhole_0",
+    "particle": "mythicweapons:weapons/blackhole_0"
+  },
+  "elements": [
+    {
+      "from": [
+        -16,
+        2,
+        -16
+      ],
+      "to": [
+        16,
+        34,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            5.5,
+            4.0,
+            7.5
+          ],
+          "texture": "#blackhole_0"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            5.5,
+            2.0,
+            7.5
+          ],
+          "texture": "#blackhole_0"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            5.5,
+            8.0,
+            7.5
+          ],
+          "texture": "#blackhole_0"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            5.5,
+            6.0,
+            7.5
+          ],
+          "texture": "#blackhole_0"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            5.5,
+            2.0,
+            3.5
+          ],
+          "texture": "#blackhole_0"
+        },
+        "down": {
+          "uv": [
+            6.0,
+            3.5,
+            4.0,
+            5.5
+          ],
+          "texture": "#blackhole_0"
+        }
+      }
+    },
+    {
+      "from": [
+        -36,
+        18,
+        -35
+      ],
+      "to": [
+        36,
+        18,
+        35
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            16.0,
+            4.5,
+            16.0
+          ],
+          "texture": "#blackhole_0"
+        },
+        "east": {
+          "uv": [
+            -4.375,
+            16.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#blackhole_0"
+        },
+        "south": {
+          "uv": [
+            8.875,
+            16.0,
+            13.375,
+            16.0
+          ],
+          "texture": "#blackhole_0"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            16.0,
+            8.875,
+            16.0
+          ],
+          "texture": "#blackhole_0"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            16.0,
+            0.0,
+            11.625
+          ],
+          "texture": "#blackhole_0"
+        },
+        "down": {
+          "uv": [
+            9.0,
+            11.625,
+            4.5,
+            16.0
+          ],
+          "texture": "#blackhole_0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Unresolved / gap inventory
+
+| gap | evidence | plan |
+|---|---|---|
+| MythicWeapons **behaviors** (bloodthorn, bloodroot, blackhole, blaze_bringer, daybreak, dead_weight, galebreaker, arbiter, amaranth, biome_blade×8, palewake, permafrost, prismatic_piercer, skulkrend, kingsfall, blights_edge, conduit_pylon…) | assets exist (models/weapons 86, textures/weapons 120, items 546, vfx models 325, fonts, sounds, skyboxengine 11); behavior source lived in the **MythicWeapons plugin** (not supplied) | asset-manifest port; behavior implemented natively where inferable from item/ability names + tooltip texts; artifacts that cannot be inferred go in `UNRESOLVED-ASSETS.md` with safest fallback (vanilla-style wieldable item with original model/texture and documented ability stubs) |
+| LibsDisguises morphs (Wand of Illusion, Echo) | `softdepend: LibsDisguises`; no disguise lib allowed | native disguise via `ServerPlayerEntity` custom data + `PersistentProjectile`? — implement own minimal disguise: hide/undo via `DataTracker` + skinsync messaging; document as functional equivalent |
+| `custom/ic`, `custom/skull`, `custom/redblock` | not present in either resource pack, not referenced in source | recorded; fallback = vanilla texture placeholders only if a runtime reference appears; otherwise ignored with log |
+| Copper armor custom **models** | present (`assets/custom/items|models/item/copper_*.json` + textures) | copied 1:1; item components set via `custom_model_data` mapping |
+| 26.2 API surface | maven.fabricmc.net / meta / Mojang endpoints **blocked in sandbox**; no 26.2 mappings available (Yarn has no 26.x branch; 1.21.11 = latest) | code written against Yarn-1.21.11-era names + v76 mod's verified 26.2 names (getCommands etc.); `COMPATIBILITY.md` checklist at the end; user builds with Loom locally (`gradle build`), fixups against real 26.2 required where names differ |
+| Skybox engine | `assets/skyboxengine` has 2 files (model_shader 1.json/png) | port as client resource overlay only; no custom sky renderer (documented limitation) |

@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {"type": "model", "model": "minecraft:item/echo_shard"},
+    "entries": [
+      {"threshold": 22, "model": {"type": "model", "model": "custom/pale_shard"}}
+    ]
+  }
+}

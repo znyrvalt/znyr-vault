@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mythicweapons:vfx/palewake_eye_closed_0"
+  }
+}

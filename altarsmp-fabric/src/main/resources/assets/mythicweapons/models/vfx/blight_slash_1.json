@@ -1,0 +1,76 @@
+{
+  "textures": {
+    "famine_slash_1_0": "mythicweapons:vfx/blight_slash_1_0",
+    "particle": "mythicweapons:vfx/blight_slash_1_0"
+  },
+  "elements": [
+    {
+      "from": [
+        -8.0,
+        0.0,
+        -8.0
+      ],
+      "to": [
+        8.0,
+        0.0,
+        8.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          "texture": "#famine_slash_1_0"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          "texture": "#famine_slash_1_0"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          "texture": "#famine_slash_1_0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          "texture": "#famine_slash_1_0"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#famine_slash_1_0"
+        },
+        "down": {
+          "uv": [
+            0.0,
+            16.0,
+            16.0,
+            0.0
+          ],
+          "texture": "#famine_slash_1_0"
+        }
+      }
+    }
+  ]
+}

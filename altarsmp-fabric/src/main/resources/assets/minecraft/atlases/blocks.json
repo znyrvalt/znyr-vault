@@ -1,0 +1,7 @@
+{
+  "sources": [
+    { "type": "directory", "source": "vfx", "prefix": "vfx/" },
+    { "type": "directory", "source": "weapons", "prefix": "weapons/" },
+    { "type": "directory", "source": "overlay", "prefix": "overlay/" }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "textures": {
+    "blight_circle_0": "mythicweapons:vfx/blight_circle_0",
+    "particle": "mythicweapons:vfx/blight_circle_0"
+  },
+  "elements": [
+    {
+      "from": [
+        -9.00375,
+        1.78625,
+        -9.00375
+      ],
+      "to": [
+        9.00375,
+        1.78625,
+        9.00375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            0.0,
+            8.5625,
+            0.0
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            0.0625,
+            8.5625,
+            0.0625
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            0.125,
+            8.5625,
+            0.125
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            0.1875,
+            8.5625,
+            0.1875
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "up": {
+          "uv": [
+            9.375,
+            4.0,
+            6.3125,
+            0.9375
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "down": {
+          "uv": [
+            9.375,
+            0.9375,
+            6.3125,
+            4.0
+          ],
+          "texture": "#blight_circle_0"
+        }
+      }
+    },
+    {
+      "from": [
+        -9.73875,
+        0.68375,
+        -9.73875
+      ],
+      "to": [
+        9.73875,
+        0.68375,
+        9.73875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            0.25,
+            9.3125,
+            0.25
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            0.3125,
+            9.3125,
+            0.3125
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            0.375,
+            9.3125,
+            0.375
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            0.4375,
+            9.3125,
+            0.4375
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "up": {
+          "uv": [
+            3.3125,
+            3.3125,
+            0.0,
+            0.0
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "down": {
+          "uv": [
+            3.3125,
+            0.0,
+            0.0,
+            3.3125
+          ],
+          "texture": "#blight_circle_0"
+        }
+      }
+    },
+    {
+      "from": [
+        -5.32875,
+        2.52125,
+        -5.32875
+      ],
+      "to": [
+        5.32875,
+        2.52125,
+        5.32875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            0.5,
+            7.875,
+            0.5
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            0.5625,
+            7.875,
+            0.5625
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            0.625,
+            7.875,
+            0.625
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            0.6875,
+            7.875,
+            0.6875
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "up": {
+          "uv": [
+            5.1875,
+            7.0625,
+            3.375,
+            5.25
+          ],
+          "texture": "#blight_circle_0"
+        },
+        "down": {
+          "uv": [
+            5.1875,
+            5.25,
+            3.375,
+            7.0625
+          ],
+          "texture": "#blight_circle_0"
+        }
+      }
+    }
+  ]
+}

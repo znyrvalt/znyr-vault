@@ -1,0 +1,14 @@
+{
+  "dragonding": {
+    "category": "player",
+    "sounds": [
+      { "name": "altarsmps2:dragonding", "stream": false }
+    ]
+  },
+  "dragontick_tack": {
+    "category": "player",
+    "sounds": [
+      { "name": "altarsmps2:dragontick_tack", "stream": false }
+    ]
+  }
+}

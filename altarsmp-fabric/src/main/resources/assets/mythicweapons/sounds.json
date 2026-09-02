@@ -1,0 +1,47 @@
+{
+  "electricity": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mythicweapons:electricity",
+        "stream": false
+      }
+    ]
+  },
+  "bram": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mythicweapons:bram",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mythicweapons:heartbeat",
+        "stream": false
+      }
+    ]
+  },
+  "sword_spin_030_high": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mythicweapons:sword_spin_030_high",
+        "stream": false
+      }
+    ]
+  },
+  "sword_spin_075": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mythicweapons:sword_spin_075",
+        "stream": false
+      }
+    ]
+  }
+}

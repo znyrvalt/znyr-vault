@@ -1,0 +1,58 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_1.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf300"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_2.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf301"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_3.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf302"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_4.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf303"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_5.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf304"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mythicweapons:overlay/vigil_vignette_6.png",
+      "height": 360,
+      "ascent": 210,
+      "chars": [
+        "\uf305"
+      ]
+    }
+  ]
+}

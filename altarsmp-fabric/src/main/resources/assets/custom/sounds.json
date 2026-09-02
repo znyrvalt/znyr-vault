@@ -1,0 +1,33 @@
+{
+  "bloodlust.hit": {
+    "sounds": [
+      {
+        "name": "custom:blood"
+      }
+    ]
+  },
+
+  "bloodlust.kill": {
+    "sounds": [
+      {
+        "name": "custom:bloodlust_kill"
+      }
+    ]
+  },
+
+  "bloodlust.dive": {
+    "sounds": [
+      {
+        "name": "custom:bloodstep_dive"
+      }
+    ]
+  },
+
+  "bloodlust.resurface": {
+    "sounds": [
+      {
+        "name": "custom:bloodstep_resurface"
+      }
+    ]
+  }
+}
